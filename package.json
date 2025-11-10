@@ -1,0 +1,23 @@
+{
+  "name": "animated-letter-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A responsive React site with an animated opening letter to show a message to a friend.",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "dev": "vite --open",
+    "start": "npm run dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "vite": "^5.0.0"
+  }
+}
